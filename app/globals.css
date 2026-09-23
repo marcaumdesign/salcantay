@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  background: #edede8;
+  font-family: var(--font-montserrat), "Helvetica Neue", sans-serif;
+}
