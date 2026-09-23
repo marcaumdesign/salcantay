@@ -29,11 +29,9 @@
   margin: 0;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: clamp(14px, 4vw, 30px);
-  row-gap: 12px;
 }
 
 .logoMark {
@@ -61,6 +59,26 @@
   letter-spacing: 0.42em;
   margin-right: -0.42em;
   color: #5b9e80;
+}
+
+@media (max-width: 640px) {
+  .logo {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .logoMark {
+    margin-right: 0;
+  }
+
+  .logoDivider {
+    width: 56px;
+    height: 1px;
+  }
+
+  .logoWord {
+    margin-right: 0;
+  }
 }
 
 .copy {
