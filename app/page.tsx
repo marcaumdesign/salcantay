@@ -14,8 +14,8 @@ export default function Home() {
           <div className={styles.copy}>
             {[
               "Salcantay Global is a private investment company founded in 2017.",
-              "We invest proprietary capital in private equity and real estate.",
-              "Driven by enduring partnerships and an entrepreneurial spirit.",
+              "We deploy proprietary capital across alternative assets and real estate.",
+              "Driven by enduring partnerships and entrepreneurial spirit.",
             ].map((line) => (
               <p key={line} className={styles.copyLine}>
                 {line}

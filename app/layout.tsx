@@ -17,7 +17,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Salcantay Global",
   description:
-    "Salcantay Global is a private investment company founded in 2017, investing proprietary capital in private equity and real estate.",
+    "Salcantay Global is a private investment company founded in 2017. We deploy proprietary capital across alternative assets and real estate.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
